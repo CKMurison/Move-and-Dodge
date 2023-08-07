@@ -13,3 +13,6 @@ shape = SubResource("BoxShape3D_v0c6m")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Box"]
 mesh = SubResource("BoxMesh_f2811")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.962337, 0.27186, 0, -0.27186, 0.962337, 0, 1.63752, 6.66937)
