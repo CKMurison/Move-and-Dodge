@@ -15,7 +15,7 @@ size = Vector3(30, 1, 30)
 [node name="Level" type="Node3D"]
 
 [node name="Box" type="RigidBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.8784, 2.92008)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.8784, -0.103067)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Box"]
 shape = SubResource("BoxShape3D_v0c6m")
@@ -37,3 +37,6 @@ mesh = SubResource("BoxMesh_2fl5p")
 
 [node name="BallHead" parent="." instance=ExtResource("1_ea44e")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.428902, 0)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.102371, 15.1347, 0.0137411)
