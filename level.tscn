@@ -37,7 +37,7 @@ shape = SubResource("BoxShape3D_rfc6g")
 mesh = SubResource("BoxMesh_2fl5p")
 
 [node name="BallHead" parent="." instance=ExtResource("1_ea44e")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.428902, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00458241, 0.443326, -0.000481725)
 script = ExtResource("2_j0dc4")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
